@@ -1,0 +1,16 @@
+<input type="file"
+       webkitdirectory />
+
+
+       <div id="source"class="row">
+         <label class="custom-file">
+           <input type="file" id="file" class="custom-file-input" webkitdirectory />
+           <span class="custom-file-control btn">Source Folder</span>
+         </label>
+
+         <div class="card card-inverse" style="background-color: #333; border-color: #333;">
+           <div class="card-block">
+             <h3 class="card-title">D</h3>
+             <p class="card-text">This text will be written on a grey background inside a Card.</p>
+           </div>
+         </div>
