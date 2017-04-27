@@ -1,0 +1,94 @@
+/*div{
+  border: 1px solid red;
+
+}*/
+
+body{
+  color: rgb(203,204,206);
+  background-color: rgb(48,53,63);
+}
+main{
+  width: 90%;
+  margin: auto;
+}
+
+.containter{
+  width: 100%;
+  margin: 0px;
+  padding:0px;
+}
+.source-button{
+  background-color: rgb(39,43,52);
+}
+
+#tools{
+  margin-top: 10px;
+}
+
+#source {
+  color: white;
+  background-color:  rgb(49,54,64);
+  display: block;
+  width: 100%;
+  padding: 10px;
+  padding-left: 50px;
+
+}
+
+#que-title {
+  display: block;
+  background-color: darkgrey;
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+#lists{
+  height: 30em;
+
+
+}
+
+#destin{
+  background-color: rgb(28,30,35);
+  border-radius: 5px;
+}
+
+#que{
+  background-color: rgb(51,54,63);
+  border-radius: 5px;
+  box-shadow: inset 4px 12px 38px -7px #27292f;
+}
+
+#start-button{
+  margin-top: 5px;
+  width: 100%;
+
+}
+
+.title-q{
+  text-align: center;
+  margin-top: 1em;
+}
+
+.box{
+  background-color: rgb(51,54,63);
+  border: 2px solid #292929;
+  height: 5em;
+  margin-top: .5em;
+  box-shadow: inset 4px 12px 38px -7px #27292f;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.qued{
+  background-color: rgb(39,42,49);
+  border: 2px solid #2f2f2f;
+  height: 5em;
+  margin-top: .5em;
+  box-shadow: inset 4px 12px 38px -7px #1c1c1c;
+  border-radius: 5px;
+  padding: 10px 15px;
+
+}

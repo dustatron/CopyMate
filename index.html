@@ -3,11 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Bootstrap &amp; jQuery Electron!</title>
+    <title>Copy Mate</title>
+    <!-- <link rel="stylesheet" type="text/css" href="css/index.css"> -->
 
     <!-- include open source css, jQuery, and bootsrap files -->
     <link href="css/photon/css/photon.icons.css" rel="stylesheet" type="text/css"> <!-- Only use photon icons because of conflicts with Bootstrap -->
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+     <link rel="stylesheet" href="css/photon/css/photon.css">
+     <link rel="stylesheet" href="css/index.css">
     <script>
         window.$ = window.jQuery = require('jquery');
     </script>
@@ -18,38 +21,66 @@
 </head>
 
 <body>
+  <main>
 
-    <!-- show some copy/pasted Bootstrap entities -->
-    <div class="container text-center">
-        <div class="jumbotron">
-            <h1 class="display-3">Bootstrap Styles</h1>
-            <p class="lead">With jQuery usage</p>
-        </div>
+  <div class="containter">
+    <div class="row"><!-- top -->
+      <div id="source"class="col-sm-5">
 
-        <div class="row">
-            <div class="col-sm-4">
+          <label class="custom-file">
+            <input id="source-button" type="file" id="file" class="custom-file-input" webkitdirectory />
+          <span class="custom-file-control btn"><span class="icon icon-folder"></span> Source Folder</span>
 
-                <form>
-                    <div class="form-group">
-                        <span class="icon icon-note"> See phonton icons too!</span>
-                     </div>
-                    <div class="form-group">
-                        <label>Email</label>
-                        <input type="email" class="form-control" aria-describedby="input-email" placeholder="someone@somewhere.com" <small id="input-email"
-                            class="form-text text-muted">Enter email.</small>
-                    </div>
-                </form>
 
-                <!-- use this for some jQuery manipulation -->
-                <div id="os-div" class="text-right">Click button to set OS!</div>
-                <div class="form-group">
-                    <button id="button-id" type="button" class="btn btn-default center-block">Set OS</button>
-                </div>
+        </label>
 
-            </div>
-        </div>
+    </div>
+    <div id="tools" class="col-sm-3 text-center">
+      <div class="btn-group">
+        <button class="btn btn-mini btn-default">
+          <span class="icon icon-home"></span>
+        </button>
+        <button class="active btn btn-mini btn-default">
+          <span class="icon icon-cog"></span>
+        </button>
+        <button class="active btn btn-mini btn-default">
+           <span class="icon icon-folder"></span>
+        </button>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="title-q">
+        <h4>Que</h4>
+      </div>
+    </div>
     </div>
 
+    <div id="lists" class="row"> <!-- ques -->
+      <div id="destin"class="col-sm-7">
+        <div class="box">
+          Destination
+        </div>
+
+      </div>
+      <div id="que" class="col-sm-5">
+        <div class="qued">
+          downloading
+        </div>
+      </div>
+    </div>
+    <div class="row">
+
+    <div class="col-sm-7">
+
+        <button id="start-button" class="btn btn-danger" type="button" name="button">Start</button>
+
+    </div>
+    <div class="col-sm-5">
+
+    </div>
+    </div>
+  </div><!-- end containter -->
+  </main>
 </body>
 
 </html>
