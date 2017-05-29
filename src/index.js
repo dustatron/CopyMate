@@ -2,6 +2,7 @@
 // main script file to set listers with jQuery and route click events
 require('bootstrap'); // load all of Bootstrap's jQuery plugins
 var setOS = require('./src/setOS');
+var copy = require('./src/copy-this-to');
 
 // wait for document to load
 document.addEventListener('DOMContentLoaded', function () {
