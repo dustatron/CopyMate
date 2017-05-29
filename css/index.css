@@ -75,7 +75,7 @@ main{
 .box{
   background-color: rgb(51,54,63);
   border: 2px solid #292929;
-  height: 5em;
+  /*height: 5em;*/
   margin-top: .5em;
   box-shadow: inset 4px 12px 38px -7px #27292f;
   border-radius: 5px;
