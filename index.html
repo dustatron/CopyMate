@@ -27,8 +27,9 @@
     <div class="row"><!-- top -->
       <div id="source"class="col-sm-5">
 
-        <button id="source-button" class="btn">Source Folder</button>
+        <button id="source-button" class="btn btn-warning">Source Folder</button>
         <input id="source-input" type="file" style="display: none" />
+        <span id="source-read-out"></span>
         <!-- <form class="" action="index.html" method="post">
           <input id="source-folder" name="Source" type="file" id="label" webkitdirectory directory multiple/>
         </form> -->
@@ -57,15 +58,12 @@
     <div id="lists" class="row"> <!-- ques -->
       <div id="destin"class="col-sm-7">
         <div class="box">
-          Destination 1
-          <form>
-            <input type="file" id="destination-one" webkitdirectory directory multiple>
-          </form>
+
+          <button id="destination-one" type="button" class="btn btn-danger" name="button">#1 Destination</button>
+          <div id="destination-one-readout"> No folder selected first destination. </div>
           <br>
-          Destination 2
-          <form>
-            <input type="file" id="desintation-two" webkitdirectory directory multiple>
-          </form>
+          <button id="destination-two" type="button" class="btn btn-primary" name="button">#2 Destination</button>
+          <div id="destination-two-readout"> No folder selected second destination. </div>
         </div>
 
       </div>
