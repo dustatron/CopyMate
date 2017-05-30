@@ -26,10 +26,12 @@
   <div class="containter">
     <div class="row"><!-- top -->
       <div id="source"class="col-sm-5">
-        Source Folder
-        <form class="" action="index.html" method="post">
-          <input name="Source" type="file" id="label" webkitdirectory directory multiple/>
-        </form>
+
+        <button id="source-button" class="btn">Source Folder</button>
+        <input id="source-input" type="file" style="display: none" />
+        <!-- <form class="" action="index.html" method="post">
+          <input id="source-folder" name="Source" type="file" id="label" webkitdirectory directory multiple/>
+        </form> -->
 
     </div>
     <div id="tools" class="col-sm-3 text-center">
@@ -57,12 +59,12 @@
         <div class="box">
           Destination 1
           <form>
-            <input type="file" id="label" webkitdirectory directory multiple>
+            <input type="file" id="destination-one" webkitdirectory directory multiple>
           </form>
           <br>
           Destination 2
           <form>
-            <input type="file" id="label" webkitdirectory directory multiple>
+            <input type="file" id="desintation-two" webkitdirectory directory multiple>
           </form>
         </div>
 
