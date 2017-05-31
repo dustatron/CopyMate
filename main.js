@@ -1,5 +1,5 @@
 const {app, BrowserWindow} = require('electron')
-const dialog = electron.dialog;
+// const dialog = electron.dialog;
 
 // function selectDirectory() {
 //   dialog.showOpenDialog(mainWindow, {
